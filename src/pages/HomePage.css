@@ -1,7 +1,8 @@
+/* HomePage.css */
+
 body {
   font-family: 'Arial', sans-serif;
 }
-
 
 .page-container {
   display: flex;
@@ -38,37 +39,75 @@ body {
 
 .ContainerOne {
   display: flex;
-  height: 424px ;
+  height: 424px;
   flex-direction: column;
   align-items: center;
-  background-color: #333;
+  justify-content: center;
+  background-color: #393939;
 }
 
-.ContainerOneText {
+.containerOneText {
   color: white;
-  font-size: large;
+  font-size: 54px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .ContainerTwo {
   display: flex;
-  height: 321px ;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color: #000000;
 }
 
 .ContainerTwoContent {
   display: flex;
-  background-color: yellow;
+  background-color: #1B1B1B;
   margin-top: 42px;
   margin-bottom: 42px;
   margin-left: 440px;
   margin-right: 440px;
+  padding: 56px;
+}
+
+.contentLeftTitleContainer {
+  margin-bottom: 19px;
+}
+
+.contentLeftTitle {
+  font-size: 27px;
+  font-weight: 600;
+  color: white;
+}
+
+.contentLeftText {
+  font-size: 14px;
+  color: white;
+}
+
+.contentRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainer {
+  padding: 20px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 20px;
+  width: 240px;
+  cursor: pointer;
 }
 
 .ContainerThree {
   display: flex;
-  background-color: aquamarine;
+ 
   margin-left: 241px;
 }
 
@@ -77,4 +116,24 @@ body {
   flex-direction: column;
 }
 
+.contentTop {
+  background-color: aquamarine;
+  width: 849px;
+}
+
+.contentTopTitleContainer {
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.contentTopTitle {
+  font-size: 54px;
+  font-weight: 600;
+  color: black;
+}
+
+.contentTopText {
+  font-size: 14px;
+  color: black;
+}
 
