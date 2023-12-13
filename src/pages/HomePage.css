@@ -12,7 +12,6 @@ body {
 
 .header {
   display: flex;
-  background-color: rgb(255, 190, 190);
   justify-content: flex-start;
   align-items: flex-start;
   height: 104px;
@@ -25,19 +24,25 @@ body {
 }
 
 .footer {
-  background-color: pink;
-  color: white;
-  padding: 10px;
-  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 241px;
+
+
+  
 }
 
 .container-wrapper {
   display: flex;
   flex-direction: column;
   flex: 1;
+  background-color: #F8F8F8;
 }
 
-.ContainerOne {
+.containerOne {
   display: flex;
   height: 424px;
   flex-direction: column;
@@ -53,14 +58,14 @@ body {
   text-align: center;
 }
 
-.ContainerTwo {
+.containerTwo {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #000000;
 }
 
-.ContainerTwoContent {
+.containerTwoContent {
   display: flex;
   background-color: #1B1B1B;
   margin-top: 42px;
@@ -68,6 +73,11 @@ body {
   margin-left: 440px;
   margin-right: 440px;
   padding: 56px;
+}
+
+.contentLeft {
+  padding-right: 90px;
+ 
 }
 
 .contentLeftTitleContainer {
@@ -93,7 +103,7 @@ body {
 }
 
 .buttonContainer {
-  padding: 20px;
+  padding-top: 20px;
 }
 
 button {
@@ -105,20 +115,23 @@ button {
   cursor: pointer;
 }
 
-.ContainerThree {
+button:hover {
+  border-color: pink;
+}
+
+.containerThree {
   display: flex;
- 
   margin-left: 241px;
 }
 
-.ContainerThreeContent {
+.containerThreeContent {
   display: flex;
   flex-direction: column;
 }
 
 .contentTop {
-  background-color: aquamarine;
   width: 849px;
+  margin-bottom: 100px;
 }
 
 .contentTopTitleContainer {
@@ -136,4 +149,56 @@ button {
   font-size: 14px;
   color: black;
 }
+
+.contentMiddle {
+  margin-bottom: 20px;
+  width: 1438px;
+}
+
+.contentMiddleTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  padding-top: 60px;
+}
+
+.contentMiddleTopText {
+  color: white;
+  font-size: 54px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.contentMiddleBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  justify-content: center;
+  background-color: black;
+  padding-top: 42px;
+  padding-bottom: 60px;
+}
+
+.stepContainer {
+  display: flex;
+}
+
+.stepNumber {
+  color: white;
+  font-size: 90px;
+  text-align: center;
+}
+
+.stepText {
+  margin-top: 20px;
+  margin-left: 90px;
+  margin-right: 130px;
+  color: white;
+  font-size: 14px;
+}
+
+
+
 
