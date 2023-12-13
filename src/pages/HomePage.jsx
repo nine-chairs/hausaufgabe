@@ -1,24 +1,40 @@
 // JSX code (HomePage.js)
-import React from 'react';
-import './HomePage.css';
-import QRCode from '../components/QRCode';
+import React from 'react'
+import './HomePage.css'
+import QRCode from '../components/QRCode'
+
+
+// tasks
+
+
+// 1 make header adjust to width just as container 3
+// 2 make footer adjust to width just as container 3
+// 3 align items in footer in one line
+// 4 format the anleitung as in design
+// 5 add lines to anleitung
+// 6 add media query to anleitung - below certain width steps go under each other
+
+// 7 clean CSS
+// 8 clean JSX from useless divs
+// 9 remove semicolons
+
 
 const HomePage = () => {
   return (
-    <div className="page-container">
-      <header className="header">
-        <h1 className="header-title">COSALUX</h1>
+    <div className='page-container'>
+      <header className='header'>
+        <h1 className='header-title'>COSALUX</h1>
       </header>
 
-      <div className="container-wrapper">
+      <div className='container-wrapper'>
 
-        <div className="containerOne">
+        <div className='containerOne'>
           <text className='containerOneText'>
             DARING TO BE DIFFERENT.
           </text>
         </div>
 
-        <div className="containerTwo">
+        <div className='containerTwo'>
           <div className='containerTwoContent'>
             <div className='contentLeft'>
               <div className='contentLeftTitleContainer'>
@@ -44,7 +60,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="containerThree">
+        <div className='containerThree'>
           <div className='containerThreeContent'>
 
             <div className='contentTop'>
@@ -102,7 +118,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <footer className="footer">
+      <footer className='footer'>
         © COSALUX GmbH 2023<br />
         E info@cosalux.com<br />
         T +49 (0)69 – 860 07 22 – 660<br />
@@ -110,10 +126,10 @@ const HomePage = () => {
 
       </footer>
     </div >
-  );
+  )
 }
 
-export default HomePage;
+export default HomePage
 
 
 
