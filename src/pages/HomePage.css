@@ -1,4 +1,7 @@
-/* HomePage.css */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
 
 .page-container {
   display: flex;
@@ -6,8 +9,22 @@
   height: 100vh;
 }
 
-.header, .footer {
-  background-color: #333;
+.header {
+  display: flex;
+  background-color: rgb(255, 190, 190);
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 104px;
+  color: black;
+  padding-left: 241px;
+}
+
+.header-title {
+  margin-left: 20px;
+}
+
+.footer {
+  background-color: pink;
   color: white;
   padding: 10px;
   text-align: center;
@@ -15,17 +32,49 @@
 
 .container-wrapper {
   display: flex;
-  flex-direction: column; /* Updated to column */
+  flex-direction: column;
   flex: 1;
 }
 
-.ContainerOne, .ContainerTwo, .ContainerThree {
-  flex: 1;
-  padding: 20px;
-  border: 1px solid #ddd;
-  margin: 10px;
+.ContainerOne {
+  display: flex;
+  height: 424px ;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
 }
 
-.footer {
-  /* Footer styling */
+.ContainerOneText {
+  color: white;
+  font-size: large;
 }
+
+.ContainerTwo {
+  display: flex;
+  height: 321px ;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.ContainerTwoContent {
+  display: flex;
+  background-color: yellow;
+  margin-top: 42px;
+  margin-bottom: 42px;
+  margin-left: 440px;
+  margin-right: 440px;
+}
+
+.ContainerThree {
+  display: flex;
+  background-color: aquamarine;
+  margin-left: 241px;
+}
+
+.ContainerThreeContent {
+  display: flex;
+  flex-direction: column;
+}
+
+
