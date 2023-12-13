@@ -1,0 +1,31 @@
+/* HomePage.css */
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header, .footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.container-wrapper {
+  display: flex;
+  flex-direction: column; /* Updated to column */
+  flex: 1;
+}
+
+.ContainerOne, .ContainerTwo, .ContainerThree {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+
+.footer {
+  /* Footer styling */
+}
