@@ -11,24 +11,45 @@ body {
 .header {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
-  height: 104px;
-  color: black;
   margin-left: 241px; /* Updated from padding-left to margin-left */
 }
 
 .header-title {
-  margin-left: 0px;
+  font-size: 42px;
+  font-weight:lighter;
+  color: black;
+  margin-top: 31px;
+  margin-bottom: 31px;
 }
 
 .footer {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  justify-content: space-between;
+  padding-top: 37px;
+  padding-bottom: 37px;
   margin-left: 241px;
   margin-right: 241px; /* New property for margin-right */
+}
+
+.footerItemsLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footerItemsRight {
+  display: flex;
+  justify-content:right;
+}
+
+.footerItemLeft {
+  font-size: 12px;
+  color: #393939;
+}
+
+.footerItem {
+  font-size: 12px;
+  color: #393939;
+  margin-left: 40px;
 }
 
 .container-wrapper {
@@ -37,7 +58,6 @@ body {
   flex: 1;
   /* background-color: #F8F8F8; */
   background-color: pink;
-
 }
 
 .containerOne {
@@ -116,19 +136,12 @@ button:hover {
   border-color: pink;
 }
 
-/* .containerThree {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 .containerThreeContent {
   display: flex;
   flex-direction: column;
-
   margin-left: 241px;
-  margin-right: 241px; 
-  max-width: 100%; 
+  margin-right: 241px;
+  max-width: 100%;
 }
 
 .contentTop {
@@ -155,7 +168,7 @@ button:hover {
 
 .contentMiddle {
   /* width: 100%; */
-  /*max-width: 1438px;  */
+  /* max-width: 1438px; */
   margin-bottom: 20px;
 }
 
@@ -204,7 +217,7 @@ button:hover {
   font-size: 14px;
 }
 
-
+/***************/
 
 @media (max-width: 1200px) {
   .contentMiddleBottom {
@@ -221,5 +234,11 @@ button:hover {
   .stepText {
     margin: 20px 0;
   }
-}
 
+  .containerThreeContent,
+  .footer,
+  .header {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+}

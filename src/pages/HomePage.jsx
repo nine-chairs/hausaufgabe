@@ -6,15 +6,12 @@ import QRCode from '../components/QRCode'
 
 // tasks
 
-
-// 1 make header adjust to width just as container 3
-// 2 make footer adjust to width just as container 3
-// 3 align items in footer in one line
 // 4 format the anleitung as in design
 // 5 add lines to anleitung
 // 6 add media query to anleitung - below certain width steps go under each other
 
-// 7 clean CSS
+// 6 remove comments from css 
+// 7 clean CSS 
 // 8 clean JSX from useless divs
 // 9 remove semicolons
 
@@ -23,7 +20,7 @@ const HomePage = () => {
   return (
     <div className='page-container'>
       <header className='header'>
-        <h1 className='header-title'>COSALUX</h1>
+        <text className='header-title'>COSALUX</text>
       </header>
 
       <div className='container-wrapper'>
@@ -119,10 +116,19 @@ const HomePage = () => {
       </div>
 
       <footer className='footer'>
-        © COSALUX GmbH 2023<br />
-        E info@cosalux.com<br />
-        T +49 (0)69 – 860 07 22 – 660<br />
-        F +49 (0)69 – 860 07 22 – 610
+        <div className='footerItemsLeft'>
+          <text className='footerItemLeft'>© COSALUX GmbH 2023</text>
+        </div>
+        <div className='footerItemsRight'>
+          <text className='footerItem'>E info@cosalux.com</text>
+          <text className='footerItem'>T +49 (0)69 – 860 07 22 – 660</text>
+          <text className='footerItem'>F +49 (0)69 – 860 07 22 – 610</text>
+        </div>
+
+
+
+
+
 
       </footer>
     </div >
