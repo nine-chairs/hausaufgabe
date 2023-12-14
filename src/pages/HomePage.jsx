@@ -50,7 +50,11 @@ const HomePage = () => {
               </div>
               <div className='contentTopBottomTextContainer'>
                 <text className='contentTopBottomText'>
-                  COSALUX ist eine inhabergeführte Agentur für digitale Kommunikation und Design. Seit 2009 konzipieren und entwickeln wir aus Leidenschaft kreative und innovative Lösungen für unterschiedliche Branchen und Industrien.<br /> <br /> Wir transformieren „Zukunft” in Design und wissen, dass Digital ein anderes Wort für Emotion ist und Technologie für Neugier steht. Wir geben Produkten die Form zu sprechen und regen die Intelligenz zu interagieren an. Wir verstehen, dass Anders besser ist.<br /> <br /> We are DARING TO BE DIFFERENT.
+                  COSALUX ist eine inhabergeführte Agentur für digitale Kommunikation und Design. Seit 2009 konzipieren und entwickeln wir aus Leidenschaft kreative und innovative Lösungen für unterschiedliche Branchen und Industrien.<br /> <br /> Wir transformieren „Zukunft” in Design und wissen, dass Digital ein anderes Wort für Emotion ist und Technologie für Neugier steht. Wir geben Produkten die Form zu sprechen und regen die Intelligenz zu interagieren an. Wir verstehen, dass Anders besser ist.<br /> <br /> We are&nbsp;
+                  <text className='contentTopBottomTextBold'>
+                    DARING TO BE DIFFERENT.
+                  </text>
+
                 </text>
               </div>
             </div>
@@ -80,8 +84,12 @@ const HomePage = () => {
                 </text>
               </div>
               <div className='contentTopBottomTextContainer'>
+                <text className='contentTopBottomTextBold'>
+                  DARING TO BE DIFFERENT.
+                </text>
+                <br /> <br />
                 <text className='contentTopBottomText'>
-                  DARING TO BE DIFFERENT. <br />  <br />Das ist, woran wir glauben. Das ist was uns antreibt. Wir stechen heraus. Wir sind immer in Bewegung. Mit der Zeit und gegen den Strom. Wir glauben daran, dass Grenzen zum Überschreiten existieren. Wir denken, dass Mut und Herz neue Welten schaffen. Wir wissen, dass die Zukunft durch Träume geformt wird. Wir hoffen, etwas Bedeutendes zu hinterlassen.
+                  Das ist, woran wir glauben. Das ist was uns antreibt. Wir stechen heraus. Wir sind immer in Bewegung. Mit der Zeit und gegen den Strom. Wir glauben daran, dass Grenzen zum Überschreiten existieren. Wir denken, dass Mut und Herz neue Welten schaffen. Wir wissen, dass die Zukunft durch Träume geformt wird. Wir hoffen, etwas Bedeutendes zu hinterlassen.
                 </text>
               </div>
             </div>
@@ -93,9 +101,12 @@ const HomePage = () => {
           <text className='footerItemLeft'>© COSALUX GmbH 2023</text>
         </div>
         <div className='footerItemsRight'>
-          <text className='footerItem'>E info@cosalux.com</text>
-          <text className='footerItem'>T +49 (0)69 – 860 07 22 – 660</text>
-          <text className='footerItem'>F +49 (0)69 – 860 07 22 – 610</text>
+          <text className='footerItemBold'>E&nbsp;</text>
+          <text className='footerItem'>info@cosalux.com</text>
+          <text className='footerItemBold'>T&nbsp;</text>
+          <text className='footerItem'>+49 (0)69 – 860 07 22 – 660</text>
+          <text className='footerItemBold'>F&nbsp;</text>
+          <text className='footerItem'>+49 (0)69 – 860 07 22 – 610</text>
         </div>
       </footer>
     </div >
