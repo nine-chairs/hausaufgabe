@@ -1,18 +1,6 @@
-// JSX code (HomePage.js)
 import React from 'react'
 import './HomePage.css'
 import QRCode from '../components/QRCode'
-
-
-// tasks
-
-// 8 clean JSX from useless divs
-// 7 clean CSS 
-
-// 6 remove comments from css 
-// 9 remove semicolons
-// 10 add lines to anleitung
-
 
 const HomePage = () => {
   return (
@@ -20,15 +8,12 @@ const HomePage = () => {
       <header className='header'>
         <text className='header-title'>COSALUX</text>
       </header>
-
       <div className='container-wrapper'>
-
         <div className='containerOne'>
           <text className='containerOneText'>
             DARING TO BE DIFFERENT.
           </text>
         </div>
-
         <div className='containerTwo'>
           <div className='containerTwoContent'>
             <div className='contentLeft'>
@@ -54,24 +39,21 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-
         <div className='containerThree'>
           <div className='containerThreeContent'>
-
-            <div className='contentTop'>
-              <div className='contentTopTitleContainer'>
-                <text className='contentTopTitle'>
+            <div className='contentTopBottom'>
+              <div className='contentTopBottomTitleContainer'>
+                <text className='contentTopBottomTitle'>
                   AGENTUR FÜR DIGITALE<br />
                   KOMMUNIKATION UND DESIGN
                 </text>
               </div>
-              <div className='contentTopTextContainer'>
-                <text className='contentTopText'>
+              <div className='contentTopBottomTextContainer'>
+                <text className='contentTopBottomText'>
                   COSALUX ist eine inhabergeführte Agentur für digitale Kommunikation und Design. Seit 2009 konzipieren und entwickeln wir aus Leidenschaft kreative und innovative Lösungen für unterschiedliche Branchen und Industrien.<br /> <br /> Wir transformieren „Zukunft” in Design und wissen, dass Digital ein anderes Wort für Emotion ist und Technologie für Neugier steht. Wir geben Produkten die Form zu sprechen und regen die Intelligenz zu interagieren an. Wir verstehen, dass Anders besser ist.<br /> <br /> We are DARING TO BE DIFFERENT.
                 </text>
               </div>
             </div>
-
             <div className='contentMiddle'>
               <div className='contentMiddleTop'>
                 <text className='contentMiddleTopText'>ANLEITUNG</text>
@@ -89,30 +71,23 @@ const HomePage = () => {
                   <text className='stepNumber'>3</text>
                   <text className='stepText'>Nachricht abschicken.</text>
                 </div>
-
               </div>
-
             </div>
-
-
-            <div className='contentTop'>
-              <div className='contentTopTitleContainer'>
-                <text className='contentTopTitle'>
+            <div className='contentTopBottom'>
+              <div className='contentTopBottomTitleContainer'>
+                <text className='contentTopBottomTitle'>
                   ÜBER UNS
                 </text>
               </div>
-              <div className='contentTopTextContainer'>
-                <text className='contentTopText'>
+              <div className='contentTopBottomTextContainer'>
+                <text className='contentTopBottomText'>
                   DARING TO BE DIFFERENT. <br />  <br />Das ist, woran wir glauben. Das ist was uns antreibt. Wir stechen heraus. Wir sind immer in Bewegung. Mit der Zeit und gegen den Strom. Wir glauben daran, dass Grenzen zum Überschreiten existieren. Wir denken, dass Mut und Herz neue Welten schaffen. Wir wissen, dass die Zukunft durch Träume geformt wird. Wir hoffen, etwas Bedeutendes zu hinterlassen.
                 </text>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
-
       <footer className='footer'>
         <div className='footerItemsLeft'>
           <text className='footerItemLeft'>© COSALUX GmbH 2023</text>
@@ -122,12 +97,6 @@ const HomePage = () => {
           <text className='footerItem'>T +49 (0)69 – 860 07 22 – 660</text>
           <text className='footerItem'>F +49 (0)69 – 860 07 22 – 610</text>
         </div>
-
-
-
-
-
-
       </footer>
     </div >
   )
