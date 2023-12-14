@@ -6,14 +6,12 @@ import QRCode from '../components/QRCode'
 
 // tasks
 
-// 4 format the anleitung as in design
-// 5 add lines to anleitung
-// 6 add media query to anleitung - below certain width steps go under each other
+// 8 clean JSX from useless divs
+// 7 clean CSS 
 
 // 6 remove comments from css 
-// 7 clean CSS 
-// 8 clean JSX from useless divs
 // 9 remove semicolons
+// 10 add lines to anleitung
 
 
 const HomePage = () => {

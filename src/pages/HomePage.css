@@ -192,11 +192,11 @@ button:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(255, 58, 58);
+  background-color: black;
   padding-left: 190px;
   padding-right: 190px;
-  padding-top: 42px;
-  padding-bottom: 60px;
+  padding-top: 25px;
+  padding-bottom: 100px;
 }
 
 .stepContainer {
@@ -210,20 +210,24 @@ button:hover {
 }
 
 .stepText {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 40px;
+  margin-top: 17px;
+  margin-left: 43px;
+  margin-right: 43px;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /***************/
+
+/* Your existing CSS rules */
 
 @media (max-width: 1200px) {
   .contentMiddleBottom {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-left: 120px; /* Adjusted for below 1200px */
+    padding-right: 120px; /* Adjusted for below 1200px */
   }
 
   .stepContainer {
@@ -242,3 +246,11 @@ button:hover {
     margin-right: 120px;
   }
 }
+
+@media (max-width: 1500px) {
+  .contentMiddleBottom {
+    padding-left: 70px; /* Adjusted for below 1500px */
+    padding-right: 70px; /* Adjusted for below 1500px */
+  }
+}
+
